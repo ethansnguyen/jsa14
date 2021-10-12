@@ -1,0 +1,292 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/*Hết Import*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Container*/
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../28/OmniPage/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+#logo {
+   width: auto;
+   height: 90px;
+   cursor: pointer;
+   margin-left: 62px;
+   margin-top: 14px;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+    text-transform: uppercase;
+} 
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 8px 0;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+nav li:hover {
+    border-bottom: 2px solid #e67e22;
+} 
+
+.text-box p {
+    color: #fff;
+    font-size: 72px;
+}
+
+.text-box{
+    position: absolute;
+    bottom: 34%;
+    margin-left: 90px;
+}
+
+.text-box a {
+    max-width: 200px;
+}
+
+#h{
+    text-decoration: none;
+    background: #e67e22;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#h:hover {
+    background: #ce6e1b;
+}
+
+#s{
+    text-decoration: none;
+    background: transparent;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+#s:hover {
+    background: #e67e22;
+    color: white;
+}
+
+/*Hết phần 1*/
+
+/*Phần 2*/
+.container2 {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+#title-con {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 55px;
+    font-size: 40px;
+}
+
+#line{
+    display: block;
+    height: 2px;
+    background-color: #e67622;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.text {
+    margin-left: 230px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 0%;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin-top: 70px;
+    padding-right: 10px;
+}
+
+.span1of4 {
+    width: 23.8%;
+}
+
+.row i {
+    color: #e67622;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.row h3 {
+    text-transform: uppercase;
+}
+
+.row p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.img-3 {
+    width: 100%;
+}
+
+/*Phần 4*/
+#works {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100vh;
+}
+/* 
+#title-con {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 55px;
+    font-size: 40px;
+}
+
+#line{
+    display: block;
+    height: 2px;
+    background-color: #e67622;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+} */
+
+.app-img {
+    width: 211px;
+    height: 431px;
+    padding-top: 70px;
+    margin-left: 30%;
+}
+.pt {
+    font-size: 30px;
+}
+
+#a {
+    margin-left: 50%;
+    margin-top: -34%;
+    width: 550px;
+    padding-bottom: 30px;
+}
+
+#b {
+    margin-left: 50%;
+    width: 550px;
+    padding-bottom: 30px;
+}
+
+#c {
+    margin-left: 50%;
+    width: 550px;
+    padding-bottom: 30px;
+}
+
+.img-src {
+    height: 50px;
+    width: auto;
+}
+
+.img-form {
+    margin-left: 50%;
+}
+
+
+/*Đến phần 5*/
+#cities {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.row i {
+    font-size: 20px;
+}
+
+.row a {
+    color: #e67622;
+}
+
+.row a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Hết Phần 5*/
+
+/*Đến Phần 6*/
+.container5 {
+    width: 100%;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+
+/*Hết Phần 6*/
